@@ -13,7 +13,11 @@
   sending the form data to the server. 
   https://www.logicbig.com/quick-info/http/application_x-www-form-urlencoded.html-->
   <meta http-equiv="Content-Type" content="application/x-www-form-urlencoded"/>
-<title>Music Database - Oreo Music</title>
+  <title>Music Database - Boomtree</title> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link rel = "stylesheet" href="oreo.css">
 </head>
 
 <body>
@@ -151,7 +155,8 @@
     (https://stackoverflow.com/questions/1131781/is-it-a-good-practice-to-use-an-empty-url-for-a-html-forms-action-attribute-a)
   -->
 
-    <h1>music-db</h1>
+  <div class="wrapper">
+    <h1>Boomtree DB</h1>
     <h2>Registration</h2>
     <div>
       <form method="GET" action="">
@@ -172,7 +177,7 @@
         </p>
       </form>
     </div>
-    
+      
 
     <h2>Retrieve Songs By Username</h2>
 
@@ -192,6 +197,8 @@
         </p>
       </form>
     </div>
+
+  </div>
 
 </body>
 </html>

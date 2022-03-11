@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background: -webkit-linear-gradient(left, rgb(144, 203, 238), lightgrey);
+}
+
+.wrapper
+{
+    max-width: 500px;
+    background: #fff;
+    padding: 40px;
+    margin-top: 5%;
+    border-radius: 5px;
+    box-shadow: 0px 15px 45px rgba(black, black, black, 0.2);
+}
+.wrapper h1
+{
+    text-align: center;
+    object-position: center;
+    padding: 20px;
+}
+
+.wrapper h2
+{
+    text-align: center;
+    object-position: center;
+    padding: 20px;
+}
+
+.wrapper form
+{
+    margin-left: 15%;
+    font-size: 18px;
+    max-width: 300px;
+}
+
+.wrapper p
+{
+    text-align: justify;
+}

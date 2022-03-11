@@ -1,4 +1,4 @@
-# Oreo Music (music-db)
+# Boomtree Database (music-db)
 This markdown file contains the SQL queries for the music-db within Problem 1a on Homework 2 of Professor Sebastian Zimmeck's
 Software Engineering course.
 
@@ -68,6 +68,28 @@ INSERT INTO ratings_table(id, username, song, rating) VALUES (3, "Otto", "Days o
 INSERT INTO ratings_table(id, username, song, rating) VALUES (4, "Amelia-Earhart", "These Walls", 4);
 ```
 
+## 3. Getting the PHP Website Setup
+Alright, if everything has gone well, you should now have a database within PHPMyAdmin!
+
+Next, we need to move some files from the current file folder this is in.
+
+You'll need to take the following files and COPY THEM into the "htdocs" folder for xampp.
+
+(Depending on your installation, you should be able to reach the folder via C:\xampp\htdocs )
+
+------------------------------------
+FILES TO COPY INTO HTDOCS
+1. oreo.css
+2. boomtreedb.php
+------------------------------------
+
+### Connecting to the Boomtree Database
+
+To finish, open up your internet browser and head to http://localhost:8080/boomtree.php!
+
+Once you're there, you should see a nice gradient screen with two forms for the database!
+
+Mess around, register your name, and try to look up some of the pre-installed ones! (Otto and Amelia-Earhart)
 
 
 
